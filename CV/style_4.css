@@ -1,0 +1,262 @@
+body
+{
+	font-family:'Century Gothic',sans-serif;
+	line-height:1.5;
+	background:url(../picture/p01.jpg) no-repeat;
+	background-size:cover;
+	color:#323232;
+}
+
+.container
+{
+	max-width:960px;
+	margin:40px auto;
+	padding:32px;
+	background:white;
+	box-shadow:0 2px 4px rgba(0,0,0,0.1);
+}
+
+section
+{
+	display:grid;
+	grid-template-columns:1fr 4fr;
+	grid-gap:20px;
+	padding:24px 0;
+	border-bottom:1px solid lightgrey;
+}
+
+section:last-child
+{
+	border-bottom:none;
+}
+
+.section-title
+{
+	font-weight:bold;
+	font-size:18px;
+}
+
+/*******************************************************
+* =Main Info
+*******************************************************/
+
+img.avatar
+{
+	border-radius:60%;
+	width:150px;
+	height:150px;
+}
+
+.my-name
+{
+	font-size:48px;
+	line-height:1;
+}
+
+.my-title
+{
+	font-size:14px;
+	font-weight:300;
+	color:#236FB2;
+}
+
+.link-item
+{
+	display:flex;
+	margin:10px 0 20px 0;
+}
+
+.link-item
+{
+	display:flex;
+	align-items:center;
+	flex:1;
+	display:inline-block;
+	margin-right:6px;
+	list-style:none;
+}
+
+.link-item a
+{
+	color:black;
+	text-decoration:none;
+	font-size:18px;
+	transition:all ease-in-out 250ms;
+}
+
+.link-item a:hover
+{
+	color:#b9b9b9;
+}
+
+/*******************************************************
+* =Infos
+*******************************************************/
+.infos-container td:nth-child(2)
+{
+	margin:0;
+	padding:0;
+	width:10px;
+	text-align:left;
+}
+
+.infos-container td:nth-child(3)
+{
+	margin:0;
+	padding:0;
+	width:500px;
+	text-align:left;
+}
+
+/*******************************************************
+* =Experience/Education/Work
+*******************************************************/
+
+.job
+{
+	padding-bottom:24px;
+	margin-bottom:24px;
+	border-bottom:1px solid lightgrey;
+}
+
+.job:last-child
+{
+	border-bottom:none;
+}
+
+.job-title-container
+{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:20px;
+	font-size:18px;
+}
+
+.job-company
+{
+	font-weight:bold;
+	line-height:1.2;
+}
+
+.job-company a
+{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/*******************************************************
+* =Skills
+*******************************************************/
+
+.skills-container
+{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:20px;
+	margin-bottom:24px;
+}
+
+.skills-container ul
+{
+	margin-left:0;
+	list-style-type:disc;
+}
+.skills-containertable,th,td
+{
+	width:200px;
+}
+
+.skills-container table,th
+{
+	text-align:left;
+}
+/*******************************************************
+* =Interest
+*******************************************************/
+
+.interests-container
+{
+	display:flex;
+	justify-content:space-between;
+}
+
+.interests-container ul
+{
+	margin:0;
+	padding:0;
+}
+
+.interests-container li
+{
+	display:inline;
+	font-size:35px;
+	margin:10px;
+}
+
+/*******************************************************
+* =Skill Bar
+*******************************************************/
+
+.skills-container
+{
+	display:flex;
+	justify-position:space-between;
+}
+
+.skills-box
+{
+	width:260px;
+	background:#ffffff;
+	box-sizing:border-box;
+	box-shadow:0 20px 50px rgba(255, 255, 255, 0.5);
+}
+
+.skills-box h1
+{
+	margin:0;
+	padding:0;
+	color:black;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+
+.skills-info
+{
+	box-sizing:border-box;
+	width:100%;
+	margin:20px 0;
+}
+
+.skills-info p
+{
+	color:black;
+	text-transform:uppercase;
+	margin: 0 0 10px;
+	padding:0;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+.skills-info p:nth-child(2)
+{
+	float: right;
+	position:relative;
+	top:-25px;
+}
+
+.skills-percentage
+{
+	background: #262626;
+	padding:4px;
+	box-sizing:border_box;
+	border:1px solid #0fffb7;
+	border-radius:2px;
+}
+
+.skills-level
+{
+	background:#0fffb7;
+	width: 100%;
+	height:10px;
+}
